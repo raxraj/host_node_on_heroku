@@ -1,0 +1,20 @@
+{
+  "name": "simple_node_app",
+  "version": "1.0.0",
+  "description": "A simple node app to learn hosting your NodeJS server on Heroku.",
+  "main": "index.js",
+  "author": "RaxRaj",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "devStart": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
